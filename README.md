@@ -30,3 +30,7 @@ O Cap quer testar essa estratégia! Dados a (posição inicial do Cap) e b (posi
 Letícia adora brincar com números, seu irmão Francisco está aprendendo fatorial. Sabendo disso, Letícia com sua mente extremamente criativa resolveu lançar um desafio para seu irmão. ”Dado um número N, quantos zeros N! possui a direita?”.<br>
 Francisco olhou e falou ”haha, essa é fácil!” e então começou a calcular, para 1!, 2!, 3! e por aí foi.<br>
 Quando chegou em 20! ele já não aguentava mais calcular e percebeu que não era capaz de realizar a tarefa para qualquer número. Sabendo de suas habilidades com programação ele pediu sua ajuda para mostrar à irmã que conseguiu resolver o desafio e finalmente receber o prêmio.
+## Atividade 11
+Imagine que você tem um tesouro (um número) escondido em algum lugar da memória. Para encontrá-lo, você precisa de um mapa — um ponteiro que aponta diretamente para onde o tesouro está enterrado. Mas às vezes, você pode até ter um mapa do mapa — um ponteiro para ponteiro — que te leva até o mapa original.
+## Atividade 12
+Imagine que você tem duas televisões, cada uma sintonizada em um canal diferente. Em vez de levantar do sofá para trocar os canais manualmente, você tem dois controles remotos — um para cada TV. Esses controles não armazenam os canais em si, mas sabem exatamente onde está cada TV e permitem que você altere o canal de forma indireta.
