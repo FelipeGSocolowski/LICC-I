@@ -36,3 +36,10 @@ Imagine que você tem um tesouro (um número) escondido em algum lugar da memór
 Imagine que você tem duas televisões, cada uma sintonizada em um canal diferente. Em vez de levantar do sofá para trocar os canais manualmente, você tem dois controles remotos — um para cada TV. Esses controles não armazenam os canais em si, mas sabem exatamente onde está cada TV e permitem que você altere o canal de forma indireta.
 ## Atividade 13
 Barbara Gordon é uma bibliotecária que frequentemente falta do trabalho por demandas no seu segundo emprego; para não perder o emprego de bibliotecária e não chamar atenção para o segundo emprego ela precisa de sua ajuda para automatizar uma parte de seu trabalho. Ela cuida de três livros com códigos únicos (por exemplo: 101, 202, 303). Ela não segura os livros diretamente, mas usa cartões especiais que dizem onde cada livro está na estante. Cada cartão é como um ponteiro: ele aponta diretamente para a variável que guarda o conteúdo do livro.
+## Atividade 14
+Rochele estava entediada e decidiu atormentar a sua irmã Lisa, que estava aprendendo a programar. Rochele lançou um desafio: duvido que, dado um número n, você consegue calcular o resultado da soma de 1! com as divisões de 1 pelos fatoriais seguintes, alternando entre valores positivos e negativos, começando por um positivo, 1/2! nesse caso.<br>
+Lisa entendeu nada e pediu para Rochele deixar de ser prolixa e escrever a fórmula, a qual é descrita no objetivo abaixo.<br><br>
+**Objetivo:** Escreva um programa em C que calcule o resultado da seguinte sequência para n termos:<br>
+S = 1 + 1/2! - 1/3! + 1/4! - 1/5! + ... ± 1/n!
+## Atividade 15
+Gandalf decidiu brincar com o psicológico da raça Hobbit novamente. O cinzento disse que ninguém irá passar pela Ponte do Brandevin, salvo aqueles que alternarem de lugar discretamente, sem que o velho mago perceba. Para que isso seja possível, um Hobbit deve trocar de lugar com outro, do outro lado da ponte. Essa troca precisa ser muito discreta, ou seja, não poderá ser utilizado um espantalho no processo.
