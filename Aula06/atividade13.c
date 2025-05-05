@@ -114,4 +114,6 @@ int main() {
     } else {
         printf("cartao3 -> %d\n", *cartao3);
     }
+
+    return 0;
 }

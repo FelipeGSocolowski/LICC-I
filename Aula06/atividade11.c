@@ -22,4 +22,6 @@ int main() {
     **mapa2 += 10;
 
     printf("Valor do tesouro usando mapa para o mapa depois de adicionarmos 10 moedas: %d\n", **mapa2);
+
+    return 0;
 }
