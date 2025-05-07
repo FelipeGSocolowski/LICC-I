@@ -1,26 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
 
 int main() {
-    int n1, n2, *ptr;
+    int n;
+    long double S = 1;
+
+    scanf("%d", &n);
+
+    for (int i = 2; i <= n; i++) {
+        long double fat = 1;
+
+        for (int j = i; j > 1; j--) {
+            fat *= j;
+        }
+        
+        S += pow(-1, i) * (1/fat);
+    }
     
-    ptr = (int*) malloc(2 * sizeof(int));
-
-    scanf("%d %d", &n1, &n2);
-
-    printf("%d %d\n", n1, n2);
-
-    *(ptr + 0) = n1;
-
-    *(ptr + 1) = n2;
-
-    n1 = *(ptr + 1);
-
-    n2 = *(ptr + 0);
-
-    printf("%d %d\n", n1, n2);
-
-    free(ptr);
+    printf("%Lf\n", S);
 
     return 0;
 }
