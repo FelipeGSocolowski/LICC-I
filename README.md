@@ -55,3 +55,23 @@
 ## Atividade 17
 &nbsp;&nbsp;&nbsp;&nbsp;Uma loja de jogos registrou no último mês de maio o número de pré-vendas reservadas para o console Nintendo Switch 2 em cada dia do mês. Implemente um programa em C que leia na entrada padrão de texto um número natural para cada dia do mês de maio. Em seguida, imprima na tela a quantidade vendida no melhor dia de vendas. Após isso, imprima o dia com maior número de reservas. Caso mais de um dia tenha registrado o melhor número de reservas, você deve imprimir todos os dias, um em cada linha, ordenados do menor para o maior.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Note que o mês de maio tem 31 dias. A quantidade vendida será informada na ordem de dias, começando no dia 1º ao dia 31.
+## Atividade 18
+&nbsp;&nbsp;&nbsp;&nbsp;Após o mês da pré-venda do Nintendo Switch 2 finalmente chegou o dia do lançamento e sua loja de jogos abrirá a meia-noite para entregar os consoles. As pessoas que trabalham com você ficaram curiosas: qual o tamanho da fila que se vai se formar até o fim do dia? Para resolver essa importantíssima questão, implemente um programa em C que calcule o comprimento de uma fila formada por uma sequência de pessoas descritas por suas localizações no espaço de duas dimensões de forma ordenada. O programa deve ler na entrada padrão de texto um número inteiro N, que representa o número de pessoas que formam esta fila. Em seguida, leia N pares de números reais, representando os locais Pi das pessoas no espaço 2D. Imprima na tela o comprimento da fila, considerando que as localizações são informadas de maneira ordenada.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Escreva o valor do comprimento com **4 casas decimais**.
+## Atividade 19
+&nbsp;&nbsp;&nbsp;&nbsp;As pessoas docentes responsáveis pela disciplina de Introduçaão a Ciências de Computação Mais Difícil II desejam aplicar N trabalhos e calcular a nota final para as pessoas discentes usando média harmônica amortizada. O seu trabalho é ~~não tirar zero em nenhum destes trabalhos~~ ajudar criando um programa que calcule esta nota final usando funções. Implemente um programa em C com 3 funções básicas:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;• int readInt(): Leia um inteiro do teclado e retorne o valor;<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;• double readDouble(): Leia um real do teclado e retorne o valor;<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;• void printDouble(double val): Escreva na tela o valor do parâmetro val.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Em seguida, implemente um algoritmo que calcule a média harmônica amortizada. Seu programa deve ler na entrada padrão de texto um número inteiro N (a leitura deste valor deverá ser realizada por int n = readInt();), que representa o número de trabalhos realizados. Em seguida, leia N números decimais, representando cada um a nota do aluno (a leitura deverá utilizar sua função readDouble()). Imprima na tela (utilizando a função printDouble(double val)) o valor da média harmônica amortizada dos trabalhos realizados pelo aluno. Esta média pode ser representada pela fórmula abaixo:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;MAH = (N / (1/T1+1) + (1/T2+1) + ... + (1/Tn+1)) - 1<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Escreva o valor da média com **2 casas decimais**.
+## Atividade 20
+&nbsp;&nbsp;&nbsp;&nbsp;O **Bubble Sort** é um algoritmo de ordenação simples baseado na comparação de elementos adjacentes. Ele funciona analisando pares consecutivos em uma lista e trocando suas posições quando estão na ordem incorreta. Esse processo de comparação e troca é repetido iterativamente até que toda a lista esteja completamente ordenada.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Desenvolva um programa em C que receba um vetor de inteiros e o exiba em ordem crescente. Para isso, implemente uma função bubblesort do tipo void que deverá receber como parâmetros um vetor de inteiros e o seu tamanho, e executar a ordenação utilizando o algoritmo de Bubble Sort<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Passos do Algoritmo**:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Percorra a lista comparando cada elemento com o próximo (elemento i com i+1).<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Se o elemento atual for maior que o próximo, troque-os de lugar.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Repita esse processo para todos os elementos até que nenhuma troca seja necessária durante uma passagem completa pela lista (indicando que a lista está ordenada).<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ao final, o programa deve imprimir:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;• O vetor ordenado, separado por espaços.
