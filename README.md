@@ -31,11 +31,30 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Francisco olhou e falou ”haha, essa é fácil!” e então começou a calcular, para 1!, 2!, 3! e por aí foi.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Quando chegou em 20! ele já não aguentava mais calcular e percebeu que não era capaz de realizar a tarefa para qualquer número. Sabendo de suas habilidades com programação ele pediu sua ajuda para mostrar à irmã que conseguiu resolver o desafio e finalmente receber o prêmio.
 ## Atividade 11
-&nbsp;&nbsp;&nbsp;&nbsp;Imagine que você tem um tesouro (um número) escondido em algum lugar da memória. Para encontrá-lo, você precisa de um **mapa** — um ponteiro que aponta diretamente para onde o tesouro está enterrado. Mas às vezes, você pode até ter um **mapa do mapa** — um ponteiro para ponteiro — que te leva até o mapa original.
+&nbsp;&nbsp;&nbsp;&nbsp;Imagine que você tem um tesouro (um número) escondido em algum lugar da memória. Para encontrá-lo, você precisa de um **mapa** — um ponteiro que aponta diretamente para onde o tesouro está enterrado. Mas às vezes, você pode até ter um **mapa do mapa** — um ponteiro para ponteiro — que te leva até o mapa original.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Implemente um programa em C que siga este roteiro de aventura:<br><br>
+1. Peça ao usuário para informar o valor do tesouro (um número inteiro).<br><br>
+2. Crie um **mapa** (*p) que aponte para o local onde o tesouro foi enterrado (ou seja, o endereço da variável).<br><br>
+3. Use esse mapa para encontrar o tesouro e adicionar 10 moedas de ouro (adicione 10 ao valor da variável **usando apenas o ponteiro**, sem utilizar variável += 10).<br><br>
+4. Agora, desenhe um **mapa do mapa** (\*\*pp), ou seja, um ponteiro para ponteiro que leva até o ponteiro *p.<br><br>
+5. Use o mapa do mapa para encontrar o mapa original, e com isso, adicionar mais 10 moedas ao tesouro.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Ao final, o programa deve imprimir:<br><br>
+- O valor inicial do tesouro (antes de qualquer adição),<br><br>
+- O valor do tesouro acessado pelo mapa antes e depois da primeira adição de 10,<br><br>
+- O valor do tesouro acessado pelo mapa do mapa antes e depois da segunda adição de 10,<br><br>
+- E, por fim, o valor final do tesouro, seguido de uma **quebra de linha** (\n).
+
 ## Atividade 12
 &nbsp;&nbsp;&nbsp;&nbsp;Imagine que você tem duas televisões, cada uma sintonizada em um canal diferente. Em vez de levantar do sofá para trocar os canais manualmente, você tem dois controles remotos — um para cada TV. Esses controles não armazenam os canais em si, mas sabem exatamente onde está cada TV e permitem que você altere o canal de forma indireta.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;A função Swap é um conceito comum em programação e refere-se a uma operação que troca os valores de duas variáveis entre si. Tradicionalmente, isso é feito armazenando temporariamente o valor de uma das variáveis, copiando o valor da segunda para a primeira e, por fim, usando o valor temporário para atualizar a segunda.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;**Neste exercício, você irá realizar essa troca utilizando ponteiros, ou seja, usando os controles remotos** que apontam para as televisões (variáveis) e operam suas configurações (valores) à distância.
+&nbsp;&nbsp;&nbsp;&nbsp;**Neste exercício, você irá realizar essa troca utilizando ponteiros, ou seja, usando os controles remotos** que apontam para as televisões (variáveis) e operam suas configurações (valores) à distância.<br><br>
+1. Crie duas variáveis inteiras que representem os canais atuais de duas TVs, e peça ao usuário que digite seus valores.<br><br>
+2. Declare dois ponteiros que apontem para essas variáveis, simulando os controles remotos.<br><br>
+3. Implemente uma função void swap(int *a, int *b) que troque os canais (valores) das TVs usando apenas os controles remotos (ponteiros). Para isso, use uma variável temporária.<br><br>
+4. Chame a função swap() passando os ponteiros como argumentos.<br><br>
+5. Ao final, exiba os canais atuais de cada TV após a troca, confirmando que os controles funcionaram corretamente.
+
 ## Atividade 13
 &nbsp;&nbsp;&nbsp;&nbsp;Barbara Gordon é uma bibliotecária que frequentemente falta do trabalho por demandas no seu segundo emprego; para não perder o emprego de bibliotecária e não chamar atenção para o segundo emprego ela precisa de sua ajuda para automatizar uma parte de seu trabalho. Ela cuida de três livros com códigos únicos (por exemplo: 101, 202, 303). Ela não segura os livros diretamente, mas usa **cartões** especiais que dizem onde cada livro está na estante. Cada cartão é **como um ponteiro**: ele aponta diretamente para a variável que guarda o conteúdo do livro.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Durante o dia, pessoas retiram e devolvem livros. Quando isso acontece, Barbara atualiza seus cartões para refletir a nova organização da estante. Às vezes ela também precisa trocar um cartão de um livro por outro, quando os livros mudam de lugar.<br><br>
@@ -60,9 +79,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Escreva o valor do comprimento com **4 casas decimais**.
 ## Atividade 19
 &nbsp;&nbsp;&nbsp;&nbsp;As pessoas docentes responsáveis pela disciplina de Introduçaão a Ciências de Computação Mais Difícil II desejam aplicar N trabalhos e calcular a nota final para as pessoas discentes usando média harmônica amortizada. O seu trabalho é ~~não tirar zero em nenhum destes trabalhos~~ ajudar criando um programa que calcule esta nota final usando funções. Implemente um programa em C com 3 funções básicas:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;• int readInt(): Leia um inteiro do teclado e retorne o valor;<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;• double readDouble(): Leia um real do teclado e retorne o valor;<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;• void printDouble(double val): Escreva na tela o valor do parâmetro val.<br><br>
+- int readInt(): Leia um inteiro do teclado e retorne o valor;<br><br>
+- double readDouble(): Leia um real do teclado e retorne o valor;<br><br>
+- void printDouble(double val): Escreva na tela o valor do parâmetro val.<br><br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;Em seguida, implemente um algoritmo que calcule a média harmônica amortizada. Seu programa deve ler na entrada padrão de texto um número inteiro N (a leitura deste valor deverá ser realizada por int n = readInt();), que representa o número de trabalhos realizados. Em seguida, leia N números decimais, representando cada um a nota do aluno (a leitura deverá utilizar sua função readDouble()). Imprima na tela (utilizando a função printDouble(double val)) o valor da média harmônica amortizada dos trabalhos realizados pelo aluno. Esta média pode ser representada pela fórmula abaixo:<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;MAH = (N / (1/T1+1) + (1/T2+1) + ... + (1/Tn+1)) - 1<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Escreva o valor da média com **2 casas decimais**.
@@ -70,8 +90,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;O **Bubble Sort** é um algoritmo de ordenação simples baseado na comparação de elementos adjacentes. Ele funciona analisando pares consecutivos em uma lista e trocando suas posições quando estão na ordem incorreta. Esse processo de comparação e troca é repetido iterativamente até que toda a lista esteja completamente ordenada.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Desenvolva um programa em C que receba um vetor de inteiros e o exiba em ordem crescente. Para isso, implemente uma função bubblesort do tipo void que deverá receber como parâmetros um vetor de inteiros e o seu tamanho, e executar a ordenação utilizando o algoritmo de Bubble Sort<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Passos do Algoritmo**:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1. Percorra a lista comparando cada elemento com o próximo (elemento i com i+1).<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2. Se o elemento atual for maior que o próximo, troque-os de lugar.<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3. Repita esse processo para todos os elementos até que nenhuma troca seja necessária durante uma passagem completa pela lista (indicando que a lista está ordenada).<br><br>
+1. Percorra a lista comparando cada elemento com o próximo (elemento i com i+1).<br><br>
+2. Se o elemento atual for maior que o próximo, troque-os de lugar.<br><br>
+3. Repita esse processo para todos os elementos até que nenhuma troca seja necessária durante uma passagem completa pela lista (indicando que a lista está ordenada).<br><br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;Ao final, o programa deve imprimir:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;• O vetor ordenado, separado por espaços.
+- O vetor ordenado, separado por espaços.
