@@ -96,3 +96,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Ao final, o programa deve imprimir:<br><br>
 - O vetor ordenado, separado por espaços.
+## Atividade 21
+&nbsp;&nbsp;&nbsp;&nbsp;Um professor aplica provas apenas de questões de múltipla escolha para seus alunos. Para corrigir ele utiliza um *scanner* que realiza a leitura do cartão de respostas e apresenta como saída todas as respostas concatenadas (ver exemplo abaixo). Agora é necessário um programa para calcular a nota de cada aluno nos exames. Implemente um programa em C que leia dois números inteiros, o primeiro número será o número de questões da prova, o segundo será o número de alunos que realizaram o exame. Em seguida você terá que ler uma linha de caracteres, que determina o gabarito da prova. O caractere da primeira posição determina a resposta da primeira pergunta, e assim sucessivamente, pelo número de perguntas informado anteriormente. Em seguida, você irá ler uma linha para cada aluno, no mesmo formato do gabarito lido anteriormente. Você deve verificar quantas questões cada aluno acertou, e imprimir na tela, em cada linha, a nota do aluno, na ordem de entrada das respostas. A nota da prova é determinada em um intervalo [0, 10], e cada questão tem o mesmo peso. Confira os exemplos abaixo para entender como é realizada a entrada e saída do programa.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Exemplo de Leitura:
+|          | Pergunta 1 | Pergunta 2 | Pergunta 3 | Nota |
+|----------|------------|------------|------------|------|
+| GABARITO | A          | C          | E          |  --- |
+| Aluno 1  | A          | A          | A          | 3.33 |
+| Aluno 2  | A          | C          | E          | 10.0 |
+| Aluno 3  | C          | C          | E          | 6.67 |
+## Atividade 22
+&nbsp;&nbsp;&nbsp;&nbsp;Escreva um programa em C que leia como entrada uma sequência de cartas de baralho jogadas por diferentes jogadores. Cada carta é representada por seu naipe (copas, ouros, paus, espadas) e valor (A, 2, 3, ..., 10, J, Q, K).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;O programa deve contar quantas vezes cada carta aparece e imprimir na tela uma tabela de frequência de cartas, organizada por naipe e valor.
