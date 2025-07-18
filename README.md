@@ -108,3 +108,57 @@
 ## Atividade 22
 &nbsp;&nbsp;&nbsp;&nbsp;Escreva um programa em C que leia como entrada uma sequência de cartas de baralho jogadas por diferentes jogadores. Cada carta é representada por seu naipe (copas, ouros, paus, espadas) e valor (A, 2, 3, ..., 10, J, Q, K).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;O programa deve contar quantas vezes cada carta aparece e imprimir na tela uma tabela de frequência de cartas, organizada por naipe e valor.
+## Atividade 23
+&nbsp;&nbsp;&nbsp;&nbsp;Billie Eilish está finalizando seu novo álbum e precisa da sua ajuda! Como uma artista conhecida por seu estilo único, ela quer garantir que todas as faixas do álbum sigam o mesmo padrão de formatação: todas em letras minúsculas (como nas primeiras músicas) ou todas em maiúsculas (como no álbum mais recente).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Billie já tem os nomes das músicas prontos, mas eles foram digitados de forma inconsistente. Sua tarefa é simples: escrever um programa que receba os títulos das músicas e os formate de acordo com o estilo escolhido.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Você deve escrever um programa que:<br><br>
+- Receba um número inteiro *n*, representando a quantidade de músicas do novo álbum.<br><br>
+- Receba um segundo inteiro *b*, que define o estilo de formatação:<br><br>
+  - Se *b* = 0, os títulos devem ser convertidos **para minúsculas**.
+  - Se *b* = 1, os títulos devem ser convertidos **para maiúsculas**.<br><br>
+- Em seguida, leia *n* linhas contendo os nomes das músicas.<br><br>
+- Imprima os títulos formatados, um por linha, de acordo com a escolha de Billie.<br><br>
+- Ignore caracteres que não são letras.
+
+## Atividade 24
+&nbsp;&nbsp;&nbsp;&nbsp;Imagine que você está trabalhando em um projeto para uma biblioteca comunitária que deseja criar um sistema simples para gerenciar seus livros. A biblioteca tem um orçamento limitado e decidiu usar a linguagem C para desenvolver uma aplicação leve e eficiente. Sua tarefa é criar um programa que gerencie dinamicamente um catálogo de livros, permitindo que novos livros sejam adicionados, exibidos e a memória seja gerenciada corretamente.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Para isso, seu programa irá receber o número ( *N* ) de livros a serem cadastrados e, nas próximas *N* linhas, receberá o título, o autor e o ano de publicação de cada livro (separados por vírgulas) presente na biblioteca. Assim, você deve armazená-los em vetores alocados dinamicamente e depois imprimi-los em formato de catálogo, como mostrado no caso teste abaixo (mostrando o título, o nome do autor, o ano de publicação e a quantidade desse livro).
+## Atividade 25
+&nbsp;&nbsp;&nbsp;&nbsp;Você é um agente especial encarregado de uma missão ultra secreta durante a Segunda Guerra Mundial. Sua equipe interceptou uma mensagem cifrada (string s) que pode conter informações cruciais para virar o jogo da guerra.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Para conseguir decifrar essa mensagem, você recebeu uma pista valiosa: uma string t, que funciona como um código-chave usado para sinalizar onde começa a parte importante da mensagem.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Sua tarefa é descobrir qual é o maior prefixo dessa chave t que aparece em algum lugar da mensagem interceptada s, pois sabe-se que apenas depois desse prefixo a mensagem de fato começa.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Um prefixo de uma string é qualquer parte inicial dela, começando do primeiro caractere. Por exemplo, os prefixos da string "CRYPTO" são: "C", "CR", "CRY", "CRYP", "CRYPT" e "CRYPTO".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A saída deve conter duas informações separadas por espaço: o tamanho do maior prefixo de t que aparece em s, e o próprio prefixo encontrado. Caso nenhum prefixo esteja presente, deve-se imprimir 0.
+## Atividade 26
+&nbsp;&nbsp;&nbsp;&nbsp;Uma professora de Laboratório de Introdução à Ciência da Computação vive se confundindo com os horários das suas aulas, reuniões e plantões. Sempre que os alunos tentam marcar algo com ela, ela responde: "Ah, eu esqueci que já tinha combinado outra coisa...".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Para ajudá-la a se organizar melhor, você foi encarregado de implementar uma **agenda digital simples**. Essa agenda deve armazenar **atividades com a data, a hora e a descrição da atividade**.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Cada **data** deve conter: dia, mês e ano.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Cada **hora** deve conter: hora, minuto e segundo.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A agenda será composta por **várias atividades**, e para cada uma será informado:<br><br>
+- A **data**<br><br>
+- A **hora**<br><br>
+- A **descrição da atividade**<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Você deve utilizar **registros** (structs) para representar as informações da agenda.
+## Atividade 27
+&nbsp;&nbsp;&nbsp;&nbsp;Docentes de Laboratório de Introdução à Ciência da Computação decidiram organizar melhor seus plantões, permitindo que os discentes se inscrevam para atendimento em horários disponíveis. Como o número de inscrições varia a cada plantão, pediram que você desenvolvesse um sistema flexível de cadastro que use **alocação dinâmica de memória**.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Você deverá criar um programa que permita cadastrar discentes com os seguintes dados:<br><br>
+- Nome (até 100 caracteres)<br><br>
+- Número USP (número inteiro)<br><br>
+- Assunto que deseja tratar (até 100 caracteres)<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Use **registros** (structs) para representar cada discente e **alocação dinâmica de memória** para armazenar a quantidade variável de inscrições.
+## Atividade 28
+&nbsp;&nbsp;&nbsp;&nbsp;A Professora Janne Workaholic pretende enviar 10 artigos para o congresso científico de ”Antropologia de heróis e vilões”. Os resumos dos artigos podem conter, no máximo, até 5000 caracteres. Janne precisa de sua ajuda para automatizar a contagem de caracteres de seus artigos.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Faça um programa que leia caractere por caractere de um arquivo de entrada e informe a quantidade de caracteres existentes naquele arquivo.
+## Atividade 29
+&nbsp;&nbsp;&nbsp;&nbsp;Joana está desenvolvendo um sistema para controle de vagas para o seu *bunker* pós-apocalíptico. Joana briga muito com as pessoas e, por isso, precisa que o sistema permita apagar e incluir pessoas novas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Implemente um sistema de gerenciamento de registros de pessoas com os seguintes campos:<br><br>
+- nome<br><br>
+- telefone<br><br>
+- cidade<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Os campos devem ser armazenados separados por um delimitador vírgula. Cada registro é separado por uma quebra de linha. O programa deve ser capaz de ler um arquivo, salvar e imprimir os registros resultantes, após realizar ações de adição (comando ADD) e remoção (comando DELETE). A entrada irá conter:<br><br>
+1. nome do arquivo<br><br>
+2. quantidade de comandos a serem executados<br><br>
+3. comandos ADD e/ou DELETE
