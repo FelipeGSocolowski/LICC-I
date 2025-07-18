@@ -14,11 +14,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Implemente um programa em C que leia na entrada padrão de texto três números inteiros a, b e c, um em cada linha. Em seguida, imprima na tela o valor correspondente ao maior desses números.
 ## Atividade 6
 &nbsp;&nbsp;&nbsp;&nbsp;Implemente um programa em C que leia na entrada padrão de texto quatro números reais (a, b, c e d). Em seguida, imprima na tela o valor da média aritmética destes 4 valores, descartando o menor valor. Esta média pode ser representada pela fórmula abaixo:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;M = (a + b + c + d − MIN(a, b, c, d)) / 3<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $M \space = \space \frac{a \space + \space b \space + \space c \space + \space d \space − \space MIN(a, \space b, \space c, \space d)}{3}$<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Escreva o valor desta operação com **4 casas decimais**.
 ## Atividade 7
 &nbsp;&nbsp;&nbsp;&nbsp;Implemente um programa em C que leia na entrada padrão de texto três números inteiros a, b e c, separados por um espaço em branco. Em seguida, imprima na tela o(s) valor(es) correspondente(s) à raiz real da equação do segundo grau formada por esses números:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;ax² + bx + c = 0<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $ax² + bx + c = 0$<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Sua resposta deverá estar formatada para 3 casas decimais. Se não houver raiz real, imprima a mensagem “NAO EXISTE RAIZ REAL”. Se houver duas raízes, imprima ambas na mesma linha, separadas por um espaço, em ordem crescente.
 ## Atividade 8
 &nbsp;&nbsp;&nbsp;&nbsp;Implemente um programa em C que leia na entrada padrão de texto uma expressão aritmética e retorne o resultado do cálculo. A expressão deverá estar de acordo com a seguinte máscara:<br><br>
@@ -84,7 +84,7 @@
 - void printDouble(double val): Escreva na tela o valor do parâmetro val.<br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Em seguida, implemente um algoritmo que calcule a média harmônica amortizada. Seu programa deve ler na entrada padrão de texto um número inteiro N (a leitura deste valor deverá ser realizada por int n = readInt();), que representa o número de trabalhos realizados. Em seguida, leia N números decimais, representando cada um a nota do aluno (a leitura deverá utilizar sua função readDouble()). Imprima na tela (utilizando a função printDouble(double val)) o valor da média harmônica amortizada dos trabalhos realizados pelo aluno. Esta média pode ser representada pela fórmula abaixo:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;MAH = (N / (1/T1+1) + (1/T2+1) + ... + (1/Tn+1)) - 1<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $MAH \space = \space \frac{N}{\frac{1}{T_1 + 1} \space + \space \frac{1}{T_2 + 1} \space + \space ... \space + \space \frac{1}{T_n + 1}} \space - \space 1$<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Escreva o valor da média com **2 casas decimais**.
 ## Atividade 20
 &nbsp;&nbsp;&nbsp;&nbsp;O **Bubble Sort** é um algoritmo de ordenação simples baseado na comparação de elementos adjacentes. Ele funciona analisando pares consecutivos em uma lista e trocando suas posições quando estão na ordem incorreta. Esse processo de comparação e troca é repetido iterativamente até que toda a lista esteja completamente ordenada.<br>
